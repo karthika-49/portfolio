@@ -1,12 +1,14 @@
 import React from 'react';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
+import  backendUrl from '../constants.js'
 const AnimatedText = motion(Text);
 
 const AboutMe = () => {
-  const serverURL = 'http://localhost:3000';
-
+  const serverURL = backendUrl;
+ 
   const handleViewResume = () => {
+    console.log(serverURL)
     window.open(`${serverURL}/view-resume`, '_blank');
   };
 
