@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Heading, Flex, IconButton, Text } from '@chakra-ui/react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,  FaTwitter, FaFacebook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Contact = () => {

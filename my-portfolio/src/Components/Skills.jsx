@@ -4,8 +4,8 @@ import { Stack, Box, Text } from '@chakra-ui/react';
 
 const Skills = () => {
   const skillsData = {
-    Languages: ['Java', 'C', 'Python'],
-    Technologies: ['HTML', 'CSS', 'JavaScript', 'SQL', 'ReactJS', 'Chakra UI', 'NodeJS', 'ExpressJS', 'MongoDB'],
+    Languages: ['Java', 'C', 'JavaScript'],
+    Technologies: ['HTML', 'CSS', 'SQL', 'ReactJS', 'Chakra UI', 'NodeJS', 'ExpressJS', 'MongoDB'],
     Coursework: ['Data Structures and Algorithms', 'Object Oriented Programming', 'Database Management Systems'],
     Tools: ['Visual Studio Code', 'MySQL Workbench', 'Git', 'Firebase', 'Postman', 'Github'],
   };
